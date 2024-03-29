@@ -365,19 +365,23 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 300px; /* Adjust the width to your desired size */
+  height: 200px; /* Adjust the height to your desired size */
+  object-fit: cover; /* Ensures the image covers the entire container */
+  border-radius: 10px; /* Adds rounded corners to the images */
 }
+
 
 .project-title {
   margin: 1rem;
   color: black;
+      
 }
 
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  
 }
 
 /* CONTACT */
